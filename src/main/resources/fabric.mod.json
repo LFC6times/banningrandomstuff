@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "banharmingtwoarrows",
+  "version": "${version}",
+  "name": "Banharmingtwoarrows",
+  "description": "ban harming 2 arrows and other stuff that we need banned",
+  "authors": [
+    "6Times"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/banharmingtwoarrows/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ml.ikwid.banharmingtwoarrows.Banharmingtwoarrows"
+    ]
+  },
+  "mixins": [
+    "banharmingtwoarrows.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
